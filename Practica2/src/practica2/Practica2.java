@@ -25,10 +25,7 @@ public class Practica2 {
         do {
 
             String numero1;
-            do {
-                System.out.println("\n Introdueix el primer numero. ");
-                numero1 = sc.nextLine();
-            } while (!numero1.matches("[+-]?[\\d]*[.]?[\\d]+"));
+            numero1 = Metodos.IntroducirNumero();
             double nume1 = Double.parseDouble(numero1);
             double n1 = new Double(numero1);
 
@@ -48,10 +45,7 @@ public class Practica2 {
             } while (comprobar != true);
 
             String numero2;
-            do {
-                System.out.println("\n Introdueix el segon numero.");
-                numero2 = sc.nextLine();
-            } while (!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
+            numero2 = Metodos.IntroducirNumero();
             double nume2 = Double.parseDouble(numero2);
             double n2 = new Double(numero2);
 
