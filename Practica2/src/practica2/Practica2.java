@@ -24,6 +24,7 @@ public class Practica2 {
 
         do {
 
+            
             String numero1;
             numero1 = Metodos.IntroducirNumero();
             double nume1 = Double.parseDouble(numero1);
